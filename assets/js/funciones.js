@@ -76,4 +76,39 @@ function tresParam(x,y,z){
     console.log(x+y+z);
 
 }
-tresParam("Hola ","Soy ", "Edwin")
+tresParam("Hola ","Soy ", "Edwin");
+
+function out(){
+    let x = "hola";
+    return x;
+}
+//podemos recibir el dato de forma directa
+ 
+console.log(out());
+//o tambien podemos guardar el output en una variable
+const receive = out ();
+//y la podemos usar despues
+// console.log(receive);
+
+//funcion con param y return
+
+function areaRectangulo(b,a){
+    var resultado = b*a;
+    return resultado;
+
+}
+console.log(areaRectangulo(6,3));
+function areaRectangulo(b, a) {
+    var resultado = b * a;
+    return resultado;
+}
+
+console.log(areaRectangulo(6, 3));
+
+
+function areaTriangulo(b, a) {
+    var resultado = b * a / 2;
+    return resultado;
+}
+
+console.log( areaTriangulo(8, 4));
